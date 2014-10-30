@@ -1,0 +1,10 @@
+﻿# configuration for "master" branch
+# publish nuget package to AppVeyor feed
+
+branches:
+  only:
+    - master
+
+artifacts:
+  -path: test.zip
+
